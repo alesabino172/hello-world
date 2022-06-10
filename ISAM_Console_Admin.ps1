@@ -520,3 +520,5 @@ $HTMLPage += html -Class "fontawesome-i2svg-active fontawesome-i2svg-complete" -
 $path = ".\ISAM_Console_Admin.html"
 $HTMLPage | Out-File -FilePath $path -Encoding utf8
 Start $path
+
+#https://sb-admin-pro.startbootstrap.com/tables.html
