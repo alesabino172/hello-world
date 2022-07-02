@@ -1,1 +1,98 @@
-
+{
+	'ISAM_Appliances':[
+		{'Versao':'Novo',
+		'Ambiente':[
+			{'Tipo':'Desenvolvimento',
+			'Appliances':[
+				{'active':'true','IP':'172.31.48.25', 'hostname':'ACXXD0009CLD', 'service':'Webseal', 'rede':'???? - ??????','href':'https://172.31.48.25/'},
+				{'active':'true','IP':'172.31.48.24', 'hostname':'ACXXD0010CLD', 'service':'Policy Server', 'rede':'???? - ??????','href':'https://172.31.48.24/'},
+				{'active':'true','IP':'172.31.48.26', 'hostname':'ACXXD0011CLD', 'service':'ISDS', 'rede':'???? - ??????','href':'https://172.31.48.26/'},
+                {'active':'true','IP':'172.31.48.47', 'hostname':'????????????', 'service':'WAT - IBM Security Directory Suite Web Administration', 'rede':'???? - ??????','href':'https://172.31.48.47:12101/IDSWebApp/IDSjsp/Login.jsp'}
+			]},
+			{'Tipo':'Homologacao',
+			'Appliances':[
+				{'active':'true','IP':'172.31.68.64', 'hostname':'ACXXH00010CLD', 'service':'Webseal', 'rede':'???? - ??????', 'href':'https://172.31.68.64/core/login'},
+				{'active':'true','IP':'172.31.68.56', 'hostname':'ACXXH0014CLD', 'service':'Webseal', 'rede':'???? - ??????', 'href':'https://172.31.68.56/core/login'},
+				{'active':'true','IP':'172.31.64.99', 'hostname':'ACXXH0025CLD', 'service':'Webseal', 'rede':'???? - ??????', 'href':'https://172.31.64.99/'},
+				{'active':'true','IP':'172.31.64.100', 'hostname':'ACXXH0026CLD', 'service':'Webseal', 'rede':'???? - ??????', 'href':'https://172.31.64.100/'},
+				{'active':'true','IP':'172.31.68.28', 'hostname':'ACXXH00011CLD', 'service':'Policy Server', 'rede':'???? - ??????', 'href':'https://172.31.68.28/core/login'},
+                {'active':'true','IP':'172.31.68.60', 'hostname':'ACXXH0015CLD', 'service':'Policy Server', 'rede':'???? - ??????', 'href':'https://172.31.68.60/core/login'},
+				{'active':'true','IP':'172.31.68.29', 'hostname':'ACXXH00012CLD', 'service':'ISDS', 'rede':'???? - ??????', 'href':'https://172.31.68.29/login'},
+                {'active':'true','IP':'172.31.68.62', 'hostname':'ACXXH0016CLD', 'service':'ISDS', 'rede':'???? - ??????', 'href':'https://172.31.68.62/login'},
+                {'active':'true','IP':'172.31.68.29', 'hostname':'ACXXH00012CLD', 'service':'WAT - IBM Security Directory Suite Web Administration', 'rede':'???? - ??????','href':'https://172.31.68.29:12101/IDSWebApp/IDSjsp/Login.jsp'}
+			]},
+			{'Tipo':'Producao',
+			'Appliances':[
+				{'active':'True','IP':'10.59.98.123', 'hostname':'ACXXP3227CLD.ITAU', 'service':'Webseal (login360)', 'rede':'????? - ???????????', 'href':'https://10.59.98.123/core/login'},
+				{'active':'True','IP':'10.59.98.122', 'hostname':'ACXXP3226CLD.ITAU', 'service':'Webseal (login360)', 'rede':'????? - ???????????', 'href':'https://10.59.98.122/core/login'},
+				{'active':'True','IP':'10.225.48.241', 'hostname':'ACXXP3225CLD.ITAU', 'service':'Webseal (login360)', 'rede':'????? - ???????????', 'href':'https://10.225.48.241/core/login'},
+				{'active':'True','IP':'10.225.48.240', 'hostname':'ACXXP3224CLD.ITAU', 'service':'Webseal (login360)', 'rede':'CTMM1 - Corporativa', 'href':'https://10.225.48.240/core/login'},
+				{'active':'False','IP':'10.225.48.114', 'hostname':'ACXXP3105CLD', 'service':'Webseal', 'rede':'CTMM1', 'href':'https://10.225.48.114/core/login'},
+				{'active':'True','IP':'192.168.79.179', 'hostname':'ACXXP3101CLD', 'service':'Webseal', 'rede':'CTMM1', 'href':'https://192.168.79.179/core/login'},
+				{'active':'True','IP':'192.168.79.183', 'hostname':'ACXXP3102CLD', 'service':'Webseal', 'rede':'CTMM1', 'href':'https://192.168.79.183/core/login'},
+				{'active':'Warning','IP':'192.168.79.187', 'hostname':'ACXXP3119CLD', 'service':'Webseal', 'rede':'CTMM2', 'href':'https://192.168.79.187/core/login'},
+				{'active':'False','IP':'192.168.79.191', 'hostname':'ACXXP3120CLD', 'service':'Webseal', 'rede':'CTMM2', 'href':'https://192.168.79.191/core/login'},
+				{'active':'True','IP':'10.59.98.40', 'hostname':'ACXXP3103CLD', 'service':'RSV-Webseal', 'rede':'CTMM1 - JUMP', 'href':'https://10.59.98.40/'},
+				{'active':'True','IP':'10.59.98.48', 'hostname':'ACXXP3104CLD', 'service':'RSV-Webseal', 'rede':'CTMM1 - JUMP', 'href':'https://10.59.98.48/'},
+				{'active':'True','IP':'10.59.98.72', 'hostname':'ACXXP3121CLD', 'service':'RSV-Webseal', 'rede':'CTMM2 - JUMP', 'href':'https://10.59.98.72/'},
+				{'active':'True','IP':'10.59.98.80', 'hostname':'ACXXP3122CLD', 'service':'RSV-Webseal', 'rede':'CTMM2 - JUMP', 'href':'https://10.59.98.80/'},
+				{'active':'True','IP':'10.224.220.209', 'hostname':'ACXXP3220CLD', 'service':'Policy Server', 'rede':'????? - ???????????', 'href':'https://10.224.220.209/core/login'},
+                {'active':'True','IP':'10.224.220.210', 'hostname':'ACXXP3221CLD', 'service':'Policy Server', 'rede':'????? - ???????????', 'href':'https://10.224.220.210/core/login'},
+                {'active':'True','IP':'10.224.220.211', 'hostname':'ACXXP3222CLD', 'service':'Policy Server', 'rede':'????? - ???????????', 'href':'https://10.224.220.211/core/login'},
+                {'active':'True','IP':'10.224.220.212', 'hostname':'ACXXP3223CLD', 'service':'Policy Server', 'rede':'????? - ???????????', 'href':'https://10.224.220.212/core/login'},
+                {'active':'True','IP':'10.224.220.88', 'hostname':'ACXXP3107CLD', 'service':'Policy Server', 'rede':'CTMM1', 'href':'https://10.224.220.88/core/login'},
+                {'active':'True','IP':'10.224.220.90', 'hostname':'ACXXO3108CLD', 'service':'Policy Server', 'rede':'CTMM1', 'href':'https://10.224.220.90/core/login'},
+                {'active':'True','IP':'10.224.220.114', 'hostname':'ACXXP3127CLD', 'service':'Policy Server', 'rede':'CTMM2', 'href':'https://10.224.220.114/core/login'},
+                {'active':'True','IP':'10.224.220.116', 'hostname':'ACXXP3128CLD', 'service':'Policy Server', 'rede':'CTMM2', 'href':'https://10.224.220.116/core/login'},
+                {'active':'True','IP':'10.224.19.11', 'hostname':'ACXXP3109CLD', 'service':'ISDS', 'rede':'CTMM1', 'href':'https://10.224.19.11/'},
+                {'active':'True','IP':'10.224.19.13', 'hostname':'ACXXP3110CLD', 'service':'ISDS', 'rede':'CTMM1', 'href':'https://10.224.19.13/login'},               
+                {'active':'True','IP':'10.224.19.15', 'hostname':'ACXXP3129CLD', 'service':'ISDS', 'rede':'CTMM2', 'href':'https://10.224.19.15/login'},
+                {'active':'True','IP':'10.224.19.17', 'hostname':'ACXXP3130CLD', 'service':'ISDS', 'rede':'CTMM2', 'href':'https://10.224.19.17/login'},
+                {'active':'True','IP':'10.224.19.31', 'hostname':'ACXXP3173CLD', 'service':'ISDS', 'rede':'CTMM1', 'href':'https://10.224.19.31/login'},
+                {'active':'True','IP':'10.224.19.34', 'hostname':'ACXXP3174CLD', 'service':'ISDS', 'rede':'CTMM1', 'href':'https://10.224.19.34/login'},
+                {'active':'True','IP':'10.224.19.37', 'hostname':'ACXXP3175CLD', 'service':'ISDS', 'rede':'CTMM2', 'href':'https://10.224.19.37/login'},
+                {'active':'True','IP':'10.224.19.40', 'hostname':'ACXXP3176CLD', 'service':'ISDS', 'rede':'CTMM2', 'href':'https://10.224.19.40/login'},
+                {'active':'True','IP':'10.224.19.12', 'hostname':'????????????', 'service':'WAT - IBM Security Directory Suite Web Administration', 'rede':'???? - ??????','href':'https://10.224.19.12:12101/IDSWebApp/IDSjsp/Login.jsp'}
+			]}	
+		]},
+		{'Versao':'Legado',
+		'Ambiente':[
+			{'Tipo':'Desenvolvimento',
+			'Appliances':[
+				{'active':'True','IP':'10.225.48.74', 'hostname':'ACXXD0013CLD.ITAU', 'service':'Webseal', 'rede':'???? - ??????', 'href':'https://10.225.48.74/core/login'},
+				{'active':'True','IP':'172.31.82.168', 'hostname':'ACXXD0014CLD.ITAU', 'service':'Policy Server', 'rede':'???? - ??????', 'href':'https://172.31.82.168/core/login'},
+				{'active':'True','IP':'172.31.82.169', 'hostname':'ACXXD0015CLD.ITAU', 'service':'ISDS', 'rede':'???? - ??????', 'href':'https://172.31.82.169/core/login'}
+			]},
+			{'Tipo':'Homologacao',
+			'Appliances':[
+				{'active':'True','IP':'10.225.48.72', 'hostname':'ACXXH0017CLD.ITAU', 'service':'Webseal', 'rede':'???? - ??????', 'href':'https://10.225.48.72/core/login'},
+				{'active':'True','IP':'10.225.48.73', 'hostname':'ACXXH0018CLD.ITAU', 'service':'Webseal', 'rede':'???? - ??????', 'href':'https://10.225.48.73/core/login'},
+				{'active':'True','IP':'172.31.56.220', 'hostname':'ACXXH0019CLD.ITAU', 'service':'Policy Server', 'rede':'???? - ??????', 'href':'https://172.31.56.220/core/login'},
+				{'active':'True','IP':'172.31.56.222', 'hostname':'ACXXH0020CLD.ITAU', 'service':'Policy Server', 'rede':'???? - ??????', 'href':'https://172.31.56.222/core/login'},
+				{'active':'True','IP':'172.31.56.224', 'hostname':'ACXXH0021CLD.ITAU', 'service':'ISDS', 'rede':'???? - ??????', 'href':'https://172.31.56.224/core/login'},
+				{'active':'True','IP':'172.31.56.226', 'hostname':'ACXXH0022CLD.ITAU', 'service':'ISDS', 'rede':'???? - ??????', 'href':'https://172.31.56.226/core/login'}
+			]},
+			{'Tipo':'Producao',
+			'Appliances':[
+				{'active':'True','IP':'10.225.48.102', 'hostname':'ACXXP3115CLD.ITAU', 'service':'Webseal', 'rede':'CTMM1 - Corporativa', 'href':'https://10.225.48.102/'},
+				{'active':'True','IP':'10.225.48.108', 'hostname':'ACXXP3116CLD.ITAU', 'service':'Webseal', 'rede':'CTMM1 - Corporativa', 'href':'https://10.225.48.108/'},
+				{'active':'True','IP':'10.225.48.152', 'hostname':'ACXXP3135CLD.ITAU', 'service':'Webseal', 'rede':'CTMM2 - Corporativa', 'href':'https://10.225.48.152/'},
+				{'active':'True','IP':'10.225.48.158', 'hostname':'ACXXP3136CLD.ITAU', 'service':'Webseal', 'rede':'CTMM1 - Corporativa', 'href':'https://10.225.48.158/'},
+				{'active':'True','IP':'192.168.79.230', 'hostname':'ACXXP3111CLD.RSE.ITAU', 'service':'Webseal', 'rede':'CTMM1 - R_S_E', 'href':'https://192.168.79.230/'},
+				{'active':'True','IP':'192.168.79.234', 'hostname':'ACXXP3112CLD.RSE.ITAU', 'service':'Webseal', 'rede':'CTMM1 - R_S_E', 'href':'https://192.168.79.234/'},
+				{'active':'True','IP':'192.168.79.238', 'hostname':'ACXXP3131CLD.RSE.ITAU', 'service':'Webseal', 'rede':'CTMM2 - R_S_E', 'href':'https://192.168.79.238/'},
+				{'active':'True','IP':'192.168.79.242', 'hostname':'ACXXP3132CLD.RSE.ITAU', 'service':'Webseal', 'rede':'CTMM2 - R_S_E', 'href':'https://192.168.79.242/'},
+				{'active':'True','IP':'10.59.98.56', 'hostname':'ACXXP3113CLD.RSV.ITAU', 'service':'Webseal', 'rede':'RSV', 'href':'https://10.59.98.56/'},
+				{'active':'True','IP':'10.59.98.64', 'hostname':'ACXXP3114CLD.RSV.ITAU', 'service':'Webseal', 'rede':'RSV', 'href':'https://10.59.98.64/'},
+				{'active':'True','IP':'10.59.98.88', 'hostname':'ACXXP3133CLD.RSV.ITAU', 'service':'Webseal', 'rede':'RSV', 'href':'https://10.59.98.88/'},
+				{'active':'True','IP':'10.59.98.96', 'hostname':'ACXXP3134CLD.RSV.ITAU', 'service':'Webseal', 'rede':'RSV', 'href':'https://10.59.98.96/'},
+				{'active':'True','IP':'10.224.220.126', 'hostname':'ACXXP3137CLD.ITAU', 'service':'Policy Server', 'rede':'CTMM1', 'href':'https://10.224.220.126/'},
+				{'active':'True','IP':'10.224.220.128', 'hostname':'ACXXP3138CLD.ITAU', 'service':'Policy Server', 'rede':'CTMM1', 'href':'https://10.224.220.128/'},
+				{'active':'True','IP':'10.224.220.102', 'hostname':'ACXXP3117CLD.ITAU', 'service':'ISDS', 'rede':'CTMM1', 'href':'https://10.224.220.102/'},
+				{'active':'True','IP':'10.224.220.104', 'hostname':'ACXXP3118CLD.ITAU', 'service':'ISDS', 'rede':'CTMM1', 'href':'https://10.224.220.104/'},
+				{'active':'Warning','IP':'10.224.220.110', 'hostname':'ACXXP3125CLD.ITAU', 'service':'ISDS', 'rede':'CTMM2', 'href':'https://10.224.220.110/'},
+				{'active':'True','IP':'10.224.220.112', 'hostname':'ACXXP3126CLD.ITAU', 'service':'ISDS', 'rede':'CTMM2', 'href':'https://10.224.220.112/'}
+			]}	
+		]}
+	]
+}
