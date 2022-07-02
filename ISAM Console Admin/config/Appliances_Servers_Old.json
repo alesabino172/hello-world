@@ -1,0 +1,25 @@
+{
+    'Ambiente':'Producao',
+	'Appliances':
+	[
+		{'hostname':'acxxp3115cld.itau', 'IP':'10.225.48.102', 'service':'Webseal', 'rede':'CTMM1 - Corporativa'},
+		{'hostname':'acxxp3116cld.itau', 'IP':'10.225.48.108', 'service':'Webseal', 'rede':'CTMM1 - Corporativa'},
+		{'hostname':'acxxp3135cld.itau', 'IP':'10.225.48.152', 'service':'Webseal', 'rede':'CTMM2 - Corporativa'},
+		{'hostname':'acxxp3136cld.itau', 'IP':'10.225.48.158', 'service':'Webseal', 'rede':'CTMM1 - Corporativa'},
+        {'hostname':'acxxp3111cld.rse.itau', 'IP':'192.168.79.230', 'service':'Webseal', 'rede':'CTMM1 - R_S_E'},
+		{'hostname':'acxxp3112cld.rse.itau', 'IP':'192.168.79.234', 'service':'Webseal', 'rede':'CTMM1 - R_S_E'},
+		{'hostname':'acxxp3131cld.rse.itau', 'IP':'192.168.79.238', 'service':'Webseal', 'rede':'CTMM2 - R_S_E'},
+		{'hostname':'acxxp3132cld.rse.itau', 'IP':'192.168.79.242', 'service':'Webseal', 'rede':'CTMM2 - R_S_E'},
+		{'hostname':'acxxp3113cld.rsv.itau', 'IP':'10.59.98.56', 'service':'Webseal', 'rede':'RSV'},
+		{'hostname':'acxxp3114cld.rsv.itau', 'IP':'10.59.98.64', 'service':'Webseal', 'rede':'RSV'},
+		{'hostname':'acxxp3133cld.rsv.itau', 'IP':'10.59.98.88', 'service':'Webseal', 'rede':'RSV'},
+		{'hostname':'acxxp3134cld.rsv.itau', 'IP':'10.59.98.96', 'service':'Webseal', 'rede':'RSV'},
+		{'hostname':'acxxp3137cld.itau', 'IP':'10.224.220.126', 'service':'Policy Server', 'rede':'CTMM1'},
+		{'hostname':'acxxp3138cld.itau', 'IP':'10.224.220.128', 'service':'Policy Server', 'rede':'CTMM1'},
+		{'hostname':'acxxp3117cld.itau', 'IP':'10.224.220.102', 'service':'ISDS', 'rede':'CTMM1'},
+		{'hostname':'acxxp3118cld.itau', 'IP':'10.224.220.104', 'service':'ISDS', 'rede':'CTMM1'},
+		{'hostname':'acxxp3125cld.itau', 'IP':'10.224.220.110', 'service':'ISDS', 'rede':'CTMM2'},
+		{'hostname':'acxxp3126cld.itau', 'IP':'10.224.220.112', 'service':'ISDS', 'rede':'CTMM2'}
+    ]
+}
+
